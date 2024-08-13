@@ -10,6 +10,7 @@
 		width: 100%;
 		gap: 24px;
 		place-content: center;
+		padding: 56px;
 	}
 
 	h1 {
