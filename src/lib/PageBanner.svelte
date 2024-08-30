@@ -24,7 +24,6 @@
 	.hero-image {
 		max-height: 300px;
 		object-fit: cover;
-		object-position: 0 -550px;
 	}
 
 	.heading {

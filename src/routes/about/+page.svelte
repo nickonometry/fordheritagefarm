@@ -3,8 +3,10 @@
 </script>
 
 <PageBanner pageTitle="About Us" />
-<div class="card">
-	<p>About us coming soon!</p>
+<div class="padding-16">
+	<div class="card">
+		<p>About us coming soon!</p>
+	</div>
 </div>
 
 <style>

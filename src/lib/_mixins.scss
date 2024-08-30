@@ -105,3 +105,12 @@
     -webkit-animation: gradientAnimation 20s ease infinite;
     animation: gradientAnimation 20s ease infinite;
   }
+
+  @mixin supports-backdrop-filter() {
+    background: var(--mobile-sidenav-bg);
+  
+    @supports (backdrop-filter: blur(1rem)) {
+      background: var(--mobile-sidenav-bg-blur);
+      backdrop-filter: blur(1rem);
+    }
+  }

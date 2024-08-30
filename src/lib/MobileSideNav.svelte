@@ -1,7 +1,7 @@
 <script lang="js">
-	import Hamburger from '$lib/hamburger/hamburger.svelte';
-	import Nav from '../nav/nav.svelte';
-	import { drawerOpen } from '../../stores';
+	import Hamburger from '$lib/Hamburger.svelte';
+	import Nav from '$lib/Nav.svelte';
+	import { drawerOpen } from './state';
 
 	let drawerOpenValue;
 	drawerOpen.subscribe((value) => {
@@ -19,7 +19,7 @@
 
 <style lang="scss">
 	@import '$lib/variables.scss';
-	@import '$lib//mixins.scss';
+	@import '$lib/mixins.scss';
 
 	.mobile-nav-toggle {
 		display: none;
@@ -40,7 +40,7 @@
 		}
 
 		.sidenav {
-			width: 75vw;
+			width: 40vw;
 			position: fixed;
 			inset: 0 0 0 auto;
 			transform: translateX(0);

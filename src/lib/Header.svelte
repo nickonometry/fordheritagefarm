@@ -1,5 +1,6 @@
 <script>
 	import Nav from './Nav.svelte';
+	import MobileSideNav from './MobileSideNav.svelte';
 	let screenSize;
 </script>
 
@@ -9,7 +10,7 @@
 	<header class="header">
 		<a href="/"><img src="logo.jpg" alt="Ford Heritage Farm Logo" height="100" width="100" /></a>
 		{#if screenSize <= 1200}
-			Mobile
+			<MobileSideNav />
 		{/if}
 		{#if screenSize > 1200}
 			<Nav />

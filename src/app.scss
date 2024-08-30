@@ -18,6 +18,8 @@
 	--shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	--color-dark: rgba(0, 0, 0, 0.2);
 	--polygon: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+	--mobile-sidenav-bg: rgba(255, 255, 255, 0.98);
+  	--mobile-sidenav-bg-blur: rgba(255, 255, 255, 0.75);
 }
 
 body {
@@ -40,4 +42,8 @@ canvas,
 svg {
 	display: block;
 	max-width: 100%;
+}
+
+.padding-16 {
+	padding: 16px;
 }

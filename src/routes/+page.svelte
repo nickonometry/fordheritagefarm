@@ -11,11 +11,17 @@
 	<HomepageCard title="Seasoned" description="Enjoy the benefits of expertly seasoned firewood—dry, ready to burn, and perfect for a clean, efficient fire." imageFileName="woodyard-drone.jpg" />
 </div>
 
-<style>
+<style lang="scss">
+	@import '$lib/variables.scss';
+	@import '$lib//mixins.scss';
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 		gap: 24px;
 		padding: 64px;
+
+		@media (max-width: $device-medium) {
+			padding: 16px;
+		}
 	}
 </style>
