@@ -21,7 +21,10 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
+	@import '$lib/variables.scss';
+	@import '$lib/mixins.scss';
+
 	.card {
 		box-shadow: var(--shadow);
 		border-radius: 15px;
@@ -34,6 +37,11 @@
 		display: grid;
 		grid-template-columns: 4fr 8fr;
 		gap: 24px;
+
+		@media (max-width: $device-medium) {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
 	}
 
 	.columns p {
@@ -45,5 +53,10 @@
 	img {
 		object-fit: cover;
 		max-height: 500px;
+
+		@media (max-width: $device-medium) {
+			object-fit: cover;
+			max-height: 350px;
+		}
 	}
 </style>
