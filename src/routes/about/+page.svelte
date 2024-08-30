@@ -5,7 +5,19 @@
 <PageBanner pageTitle="About Us" />
 <div class="padding-16">
 	<div class="card">
-		<p>About us coming soon!</p>
+		<div class="columns">
+			<enhanced:img src="/static/images/woodyard2.jpg" alt="Ford Heritage Farm woodyard" />
+			<div>
+				<p>
+					Welcome to Ford Heritage Farm, your local source for premium firewood in Waterboro, Maine. At our farm, we take pride in producing top-quality firewood year-round for Waterboro and the surrounding areas within a 20-mile radius. Our firewood
+					is carefully seasoned to ensure it's ready to burn when you need it, providing you with clean, efficient heat.
+				</p>
+				<p>
+					We also take great care in stacking our firewood in professionally arranged rows, optimizing drying and ensuring that each piece is ready for your fireplace or stove. At Ford Heritage Farm, we're committed to delivering excellence in every
+					log, so you can enjoy warmth and comfort all year long.
+				</p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -16,5 +28,22 @@
 		padding: 24px;
 		max-width: 1024px;
 		margin: 24px auto;
+	}
+
+	.columns {
+		display: grid;
+		grid-template-columns: 4fr 8fr;
+		gap: 24px;
+	}
+
+	.columns p {
+		font-size: 20px;
+		line-height: 32px;
+		margin-block-end: 24px;
+	}
+
+	img {
+		object-fit: cover;
+		max-height: 500px;
 	}
 </style>
