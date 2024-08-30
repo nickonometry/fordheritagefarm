@@ -1,0 +1,107 @@
+@import 'variables.scss';
+
+@mixin page-title() {
+  color: var(--heading-color);
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+@mixin hero($imageUrl: '../../../hero2.jpg') {
+  background: linear-gradient(45deg, rgba(5, 7, 61, 0.8), rgba(5, 7, 61, 0.5), rgba(59, 59, 79, 0.9)) 0 0 / 1000% no-repeat, url($imageUrl) 0 0 / cover no-repeat;
+  background-blend-mode: darken;
+  -webkit-animation: gradientAnimation 20s ease infinite;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@mixin page-content() {
+  margin: 0 auto;
+  max-width: 1320px;
+  padding-block-start: 24px;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  align-items: start;
+  gap: 64px;
+  width: 100%;
+
+  @media (max-width: $device-medium) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@mixin outline() {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 4px;
+}
+
+@mixin slanted-underline-blue() {
+  background-size: 100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
+  background-image: linear-gradient(179deg, rgb(9, 112, 119) 0%, rgb(9, 12, 119) 50%, transparent 54%, transparent 100%);
+}
+
+@mixin slanted-underline-orange() {
+  background-size: 100% 15%;
+  background-repeat: repeat-x;
+  background-position: left 0% bottom 10%;
+  background-image: linear-gradient(181deg, #ffa620 0%, #fba11a 50%, transparent 54%, transparent 100%);
+}
+
+@-webkit-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 30%, 0 0;
+  }
+
+  50% {
+    background-position: 100% 90%, 0 0;
+  }
+
+  100% {
+    background-position: 0% 30%, 0 0;
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 30%, 0 0;
+  }
+
+  50% {
+    background-position: 100% 90%, 0 0;
+  }
+
+  100% {
+    background-position: 0% 30%, 0 0;
+  }
+}
+
+@mixin custom-image() {
+  padding: 8px;
+  display: grid;
+  place-content: center;
+
+  img {
+    width: 100%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    border: 5px solid #f5f5f5;
+    padding: 16px;
+    transition: all 300ms;
+  }
+}
+
+@mixin supports-backdrop-filter() {
+  background: var(--mobile-sidenav-bg);
+
+  @supports (backdrop-filter: blur(1rem)) {
+    background: var(--mobile-sidenav-bg-blur);
+    backdrop-filter: blur(1rem);
+  }
+}
+
+@mixin hero($imageUrl: '/images/woodyard-drone.jpg') {
+    background: linear-gradient(45deg, rgba(5, 7, 61, 0.8), rgba(5, 7, 61, 0.5), rgba(59, 59, 79, 0.9)) 0 0 / 1000% no-repeat, url($imageUrl) 0 0 / cover no-repeat;
+    background-blend-mode: darken;
+    -webkit-animation: gradientAnimation 20s ease infinite;
+    animation: gradientAnimation 20s ease infinite;
+  }
