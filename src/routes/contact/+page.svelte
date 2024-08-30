@@ -3,7 +3,6 @@
 </script>
 
 <PageBanner pageTitle="Contact" />
-
 <div class="contact-container">
 	<form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
 		<p style="margin: 0;" class="intro-text">
