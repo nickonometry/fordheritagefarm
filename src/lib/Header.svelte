@@ -8,7 +8,7 @@
 
 {#if screenSize}
 	<header class="header">
-		<a href="/"><img src="logo.jpg" alt="Ford Heritage Farm Logo" height="100" width="100" /></a>
+		<a href="/"><img src="/logo.jpg" alt="Ford Heritage Farm Logo" height="100" width="100" /></a>
 		{#if screenSize <= 1200}
 			<MobileSideNav />
 		{/if}
