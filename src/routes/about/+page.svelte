@@ -25,14 +25,6 @@
 	@import '$lib/variables.scss';
 	@import '$lib/mixins.scss';
 
-	.card {
-		box-shadow: var(--shadow);
-		border-radius: 15px;
-		padding: 24px;
-		max-width: 1024px;
-		margin: 24px auto;
-	}
-
 	.columns {
 		display: grid;
 		grid-template-columns: 4fr 8fr;

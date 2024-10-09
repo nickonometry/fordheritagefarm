@@ -19,7 +19,15 @@
 	--color-dark: rgba(0, 0, 0, 0.2);
 	--polygon: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 	--mobile-sidenav-bg: rgba(255, 255, 255, 0.98);
-  	--mobile-sidenav-bg-blur: rgba(255, 255, 255, 0.75);
+	--mobile-sidenav-bg-blur: rgba(255, 255, 255, 0.75);
+	--pinkish-red: #c35a74;
+	--medium-blue: #307baa;
+	--greenish-blue: #53bab5;
+	--bright-orange: #ff7445;
+	--white-smoke: #f5f5f4;
+	--white: #fff;
+	--dark-gray: #7d7c7c;
+	--black: #000;
 }
 
 body {
@@ -30,10 +38,15 @@ body {
 	font-optical-sizing: auto;
 	font-weight: 300;
 	font-style: normal;
-
-
 }
 
+.card {
+	box-shadow: var(--shadow);
+	border-radius: 15px;
+	padding: 24px;
+	max-width: 1024px;
+	margin: 24px auto;
+}
 
 img,
 picture,
