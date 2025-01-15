@@ -11,6 +11,7 @@
 	.page-hero {
 		width: 100%;
 		position: relative;
+		height: 300px;
 
 		&::before {
 			content: '';
@@ -22,7 +23,7 @@
 	}
 
 	.hero-image {
-		max-height: 300px;
+		height: 300px;
 		object-fit: cover;
 	}
 
