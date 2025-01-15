@@ -1,10 +1,13 @@
 <script>
 	import PricingCard from '../../lib/PricingCard.svelte';
+	import PageBanner from '$lib/PageBanner.svelte';
 </script>
 
 <svelte:head>
 	<title>Ford Heritage Farm - Firewood Pricing</title>
 </svelte:head>
+
+<PageBanner pageTitle="Pricing" />
 
 <div class="container">
 	<p class="card">
