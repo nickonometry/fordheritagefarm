@@ -48,11 +48,11 @@
 
 	img {
 		object-fit: cover;
-		max-height: 500px;
+		height: 500px;
 
 		@media (max-width: $device-medium) {
 			object-fit: cover;
-			max-height: 350px;
+			height: 350px;
 		}
 	}
 </style>
