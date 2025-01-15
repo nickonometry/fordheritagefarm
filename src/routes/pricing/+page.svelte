@@ -2,6 +2,10 @@
 	import PricingCard from '../../lib/PricingCard.svelte';
 </script>
 
+<svelte:head>
+	<title>Ford Heritage Farm - Firewood Pricing</title>
+</svelte:head>
+
 <div class="container">
 	<p class="card">
 		The pricing of firewood can fluctuate frequently due to various factors such as demand, seasonality, and availability of resources. To ensure you get the best deal, it's important to check back often for updates on prices. Staying informed will

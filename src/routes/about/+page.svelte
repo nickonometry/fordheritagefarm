@@ -2,6 +2,10 @@
 	import PageBanner from '$lib/PageBanner.svelte';
 </script>
 
+<svelte:head>
+	<title>Ford Heritage Farm - About us</title>
+</svelte:head>
+
 <PageBanner pageTitle="About Us" />
 <div class="padding-16">
 	<div class="card">

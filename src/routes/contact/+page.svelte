@@ -2,6 +2,10 @@
 	import PageBanner from '$lib/PageBanner.svelte';
 </script>
 
+<svelte:head>
+	<title>Ford Heritage Farm - Contact Us</title>
+</svelte:head>
+
 <PageBanner pageTitle="Contact" />
 <div class="contact-container">
 	<form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>

@@ -3,6 +3,10 @@
 	import VideoBanner from '../lib/VideoBanner.svelte';
 </script>
 
+<svelte:head>
+	<title>Ford Heritage Farm - A Firewood Delivery service in Southern Maine</title>
+</svelte:head>
+
 <VideoBanner />
 
 <div class="grid">
