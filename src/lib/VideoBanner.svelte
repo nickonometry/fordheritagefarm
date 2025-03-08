@@ -5,7 +5,6 @@
 	<div class="banner-content">
 		<!-- <h2 class="headline">Welcome to the Ford Heritage Farm website</h2> -->
 		<h2 class="headline">Welcome to the Ford Heritage Farm website</h2>
-		<p>The website is still under construction so check back for updates!</p>
 	</div>
 </div>
 

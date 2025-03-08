@@ -22,7 +22,9 @@
 	</div>
 	<div class="content-cont">
 		<span class="card-header">{title}</span>
-		<span class="card-body">{description}</span>
+		{#if description}
+			<span class="card-body">{description}</span>
+		{/if}
 	</div>
 </div>
 
