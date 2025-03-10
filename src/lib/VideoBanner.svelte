@@ -3,8 +3,7 @@
 		<source src="homepage-videos/firewood-drone.mp4" type="video/mp4" />
 	</video>
 	<div class="banner-content">
-		<!-- <h2 class="headline">Welcome to the Ford Heritage Farm website</h2> -->
-		<h2 class="headline">Welcome to the Ford Heritage Farm website</h2>
+		<h2 class="headline">Welcome to Ford Heritage Farm Firewood</h2>
 	</div>
 </div>
 

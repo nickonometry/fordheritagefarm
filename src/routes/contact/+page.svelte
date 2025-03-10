@@ -10,7 +10,7 @@
 <div class="contact-container">
 	<form name="netlify-form-example" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
 		<p style="margin: 0;" class="intro-text">
-			If you're interested in buying firewood, please fill out the form below and we will get back to you ASAP. You can also give us a call at <a href="tel:+12072062897">207-206-2897</a>
+			If you're interested in buying firewood, please fill out the form below and we will get back to you ASAP. You can also give us a call or text at <a href="tel:+12072062897">207-206-2897</a>
 		</p>
 		<input type="hidden" name="form-name" value="netlify-form-example" />
 		<div class="input-container">

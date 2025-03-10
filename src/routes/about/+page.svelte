@@ -12,10 +12,7 @@
 		<div class="columns">
 			<enhanced:img src="/static/images/woodyard2.jpg" alt="Ford Heritage Farm woodyard" />
 			<div>
-				<p>
-					Welcome to Ford Heritage Firewood. We are a family run business and have been working together since 2007 here in Waterboro Maine. We enjoy working together to provide quality firewood, year-round for our customers in Waterboro and the
-					surrounding areas.
-				</p>
+				<p>Welcome to Ford Heritage Firewood, a family run business since 2007 here in Waterboro Maine. We enjoy working together to provide quality firewood, year-round for our customers in Waterboro and the surrounding areas.</p>
 			</div>
 		</div>
 	</div>

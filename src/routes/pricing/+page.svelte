@@ -11,7 +11,7 @@
 
 <div class="container">
 	<p class="card">
-		From early in the year until late spring we begin to cut, split, and stack as much our wood as possible, so that it can dry out (season) enough to be fit for burning when winter returns. This seasoned wood sells out very quickly once the cool
+		From early in the year until late spring we begin to cut, split, and stack as much of our wood as possible, so that it can dry out (season) enough to be fit for burning when winter returns. This seasoned wood sells out very quickly once the cool
 		fall weather begins, and because of its demand and the additional handling it requires, it costs more. A better option for most, is to order your wood a season ahead as less-expensive and readily-available "green" or unseasoned wood. Green cord
 		wood, cut, split, and delivered, is available year-round. Call anytime to check availability of seasoned wood and current prices of either.
 	</p>
