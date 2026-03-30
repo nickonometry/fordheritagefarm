@@ -16,19 +16,19 @@
 		wood, cut, split, and delivered, is available year-round. Call anytime to check availability of seasoned wood and current prices of either.
 	</p>
 	<div class="grid">
-		<PricingCard title="Green Wood" price="$280">
+		<PricingCard title="Green Wood" price="$300">
 			<ul>
 				<li>Mixed hardwood</li>
 				<li>Freshly split and ready to stack</li>
 			</ul>
 		</PricingCard>
-		<PricingCard title="Ash" price="$330">
+		<PricingCard title="Ash" price="$350">
 			<ul>
 				<li>All Ash</li>
 				<li>Dries very quickly and ready for campfires or home heating</li>
 			</ul>
 		</PricingCard>
-		<PricingCard title="Seasoned Hardwood" price="$380">
+		<PricingCard title="Seasoned Hardwood" price="$400">
 			<ul>
 				<li>A mix of seasoned hardwood that's ideal for home heating</li>
 			</ul>
